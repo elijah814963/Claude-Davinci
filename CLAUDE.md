@@ -6,7 +6,8 @@
 
 ## User's answers (step 2)
 - Finishing app: **DaVinci Resolve Studio 21.1.1** → drive it live via Resolve's built-in connector (File > Setup AI Assistants).
-- User chose to run everything from Claude Code **on their own machine**, not the cloud container. Re-run the step 1 machine check locally (OS not yet known; Windows rules apply if on Windows), then continue from step 3.
+- User chose to run everything from Claude Code **on their own machine**, not the cloud container. Re-run the step 1 machine check locally, then continue from step 3.
+- The user has both a MacBook Air and a **Windows PC**. Resolve, the footage and the external drives are on the **PC**, so Windows rules apply (Git Bash, PYTHONUTF8=1, HF_HUB_DISABLE_SYMLINKS=1, Controlled Folder Access test).
 
 ## Handoffs
-- `handoffs/for-bari.md`: proxies plus a .drt for editor Bari (Resolve; H.264 1080p; trimmed with 2 s handles; to the external drive with room, else ~/Desktop/For Bari). Must run on the Mac.
+- `handoffs/for-bari.md`: proxies plus a .drt for editor Bari (Resolve; H.264 1080p; trimmed with 2 s handles; to the external drive with room, else ~/Desktop/For Bari). Must run on the machine with the footage and Resolve, which is the user's **Windows PC** (not the MacBook).
