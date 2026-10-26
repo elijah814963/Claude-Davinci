@@ -7,3 +7,6 @@
 ## User's answers (step 2)
 - Finishing app: **DaVinci Resolve Studio 21.1.1** → drive it live via Resolve's built-in connector (File > Setup AI Assistants).
 - User chose to run everything from Claude Code **on their own machine**, not the cloud container. Re-run the step 1 machine check locally (OS not yet known; Windows rules apply if on Windows), then continue from step 3.
+
+## Handoffs
+- `handoffs/for-bari.md`: proxies plus a .drt for editor Bari (Resolve; H.264 1080p; trimmed with 2 s handles; to the external drive with room, else ~/Desktop/For Bari). Must run on the Mac.
